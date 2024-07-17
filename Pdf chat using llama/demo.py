@@ -5,7 +5,6 @@ from langchain.text_splitter import CharacterTextSplitter
 from langchain_community.llms.huggingface_pipeline import HuggingFacePipeline
 from langchain_community.embeddings import FakeEmbeddings
 import os
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
 from langchain.chains import RetrievalQA
 import gradio as gr
 import torch
